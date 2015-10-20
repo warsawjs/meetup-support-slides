@@ -1,0 +1,14 @@
+.slide.shout.text > div {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 924px;
+}
+
+.slide.shout.text h3 {
+    line-height: 30px;
+    font-size: 50px;
+}
+
+.slide.shout.text a {
+    font-size: 50px;
+}
