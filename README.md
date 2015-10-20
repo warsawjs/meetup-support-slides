@@ -1,4 +1,4 @@
-# WarsawJS Presentation: Additional slides
+# WarsawJS Presentation: Support
 
 ![Logo](/pictures/logo.png)
 
