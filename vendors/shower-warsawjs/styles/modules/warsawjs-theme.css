@@ -1,14 +1,36 @@
+@charset "utf-8";
+
+.full .progress {
+    border-color: transparent transparent #f7302f;
+}
+
+/* -------------------------------------------------------------------------- */
+
 .slide h2 {
     color: #f7302f;
-    font-weight: normal;
-    font-family: firalight, sans-serif;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .slide h2.shout {
     color: black;
 }
 
-.slide kbd, .slide samp {
+.slide h2 small {
+    color: gray;
+    font-size: smaller;
+}
+
+.slide h2 em {
+    color: #f0db4f;
+    font-style: normal;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.slide kbd,
+.slide samp,
+.slide pre mark {
     background-color: #f0db4f;
 }
 
@@ -20,18 +42,41 @@
     color: #2380e6;
 }
 
-.slide pre mark {
-    background-color: #f0db4f;
-}
-
 .slide pre mark.important {
     background-color: #f7302f;
 }
 
 .slide p {
-    font-family: fira, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
 }
 
-.full .progress {
-    border-color: transparent transparent #f7302f;
+/* -------------------------------------------------------------------------- */
+
+.slide {
+    background: #fff url('../../images/logo-transparent-200x200.png') 98.5% 5% no-repeat;
+    background-size: 10%;
+}
+
+.slide.collapse {
+    padding-top: 40px;
+}
+
+.slide.center {
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.slide.slide-card-list p {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.slide.slide-card-list img {
+    width: 200px;
+    margin: 10px 30px;
+    display: block;
+    border-radius: 100%;
 }
