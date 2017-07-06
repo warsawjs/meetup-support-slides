@@ -80,3 +80,21 @@
     display: block;
     border-radius: 100%;
 }
+
+/* -------------------------------------------------------------------------- */
+
+.slide.twitter-timeline {
+    padding: 50px 360px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slide.twitter-timeline h2 {
+    font-size: 60px;
+    position: absolute;
+    left: -180px;
+    top: 70px;
+    transform: rotate(-18deg);
+    background: #f0db4f;
+    padding: 0 200px;
+}
