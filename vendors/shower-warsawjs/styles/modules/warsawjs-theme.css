@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
 .full .progress {
     border-color: transparent transparent #f7302f;
 }
@@ -9,7 +13,6 @@
 .slide h2 {
     color: #f7302f;
     font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
 }
 
 .slide h2.shout {
@@ -34,7 +37,8 @@
     background-color: #f0db4f;
 }
 
-.slide b, .slide strong {
+.slide b,
+.slide strong {
     color: #f7302f;
 }
 
@@ -44,10 +48,6 @@
 
 .slide pre mark.important {
     background-color: #f7302f;
-}
-
-.slide p {
-    font-family: 'Fira Sans', sans-serif;
 }
 
 /* -------------------------------------------------------------------------- */

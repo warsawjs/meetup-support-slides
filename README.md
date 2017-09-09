@@ -1,6 +1,7 @@
 # WarsawJS Slides: Support
 
-![Logo](/vendors/shower-warsawjs/images/logo-transparent-200x200.png)
+![Logo](./vendors/shower-warsawjs/images/logo-white-400x400.jpg)
 
----
-Licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License), see [license page](https://github.com/shower/shower/wiki/MIT-License) for details.
+## License
+
+[The MIT License](http://en.wikipedia.org/wiki/MIT_License)
