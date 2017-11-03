@@ -67,6 +67,11 @@ body {
 
 /* -------------------------------------------------------------------------- */
 
+.slide.slide-card-list {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .slide.slide-card-list p {
     display: flex;
     align-items: flex-start;
@@ -75,7 +80,7 @@ body {
 }
 
 .slide.slide-card-list img {
-    width: 200px;
+    width: 190px;
     margin: 10px 30px;
     display: block;
     border-radius: 100%;
