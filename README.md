@@ -1,4 +1,4 @@
-# WarsawJS Slides: Support
+# WarsawJS: Meetup Support Slides
 
 ![Logo](./vendors/shower-warsawjs/images/logo-white-400x400.jpg)
 
