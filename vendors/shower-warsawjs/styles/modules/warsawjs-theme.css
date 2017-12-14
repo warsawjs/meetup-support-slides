@@ -52,7 +52,7 @@ body {
 
 /* -------------------------------------------------------------------------- */
 
-.slide {
+.slide:not(.no-logo) {
     background: #fff url('../../images/logo-transparent-200x200.png') 98.5% 5% no-repeat;
     background-size: 10%;
 }
