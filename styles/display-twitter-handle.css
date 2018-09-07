@@ -10,3 +10,7 @@
     color: #2380e6;
     font-weight: 300;
 }
+
+.slide.no-display-twitter-handle:before {
+    display: none;
+}

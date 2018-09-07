@@ -65,6 +65,10 @@ body {
     text-align: center;
 }
 
+.slide.dark {
+    background: #000000;
+}
+
 /* -------------------------------------------------------------------------- */
 
 .slide.slide-card-list {
