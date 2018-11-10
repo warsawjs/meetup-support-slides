@@ -35,7 +35,7 @@ body {
 .slide h4:not(.shout),
 .slide h5:not(.shout),
 .slide h6:not(.shout) {
-    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.8);
+    /* text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.8); */
 }
 
 /* -------------------------------------------------------------------------- */
