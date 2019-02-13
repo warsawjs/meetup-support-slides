@@ -26,10 +26,10 @@
         <p>We talk about JavaScript. Each month in Warsaw, Poland.</p>
     </header>
 
-    <section class="slide black">
+    <section class="slide no-logo">
         <iframe
             class="cover"
-            src="https://www.youtube.com/embed/wA27N17v1cw?rel=0"
+            src="https://www.youtube.com/embed/hH7eroT66jI?rel=0"
             width="560" height="315" frameborder="0"
             allow="autoplay; encrypted-media" allowfullscreen
         ></iframe>
@@ -50,28 +50,64 @@
                 alt=""/>
     </section> -->
 
-    <section class="slide collapse center slide-card-list">
-        <h2 style="font-size: 60px;">
+    <section class="slide collapse center slide-card-list no-display-twitter-handle no-logo">
+        <h2 style="font-size: 60px; margin-bottom: 20px;">
             WarsawJS <em>Hosts</em>
         </h2>
 
         <p>
             <span>
-                <img src="images/avatars-hosts/piotr-kowalski.jpg" alt=""/>
-                Piotr Kowalski<br/>
-                <a href="https://twitter.com/piecioshka">@piecioshka</a>
+                <img
+                    src="images/avatars-hosts/piotr-kowalski.jpg"
+                    class="avatar"
+                    alt=""/>
+
+                <a href="https://twitter.com/piecioshka">
+                    Piotr Kowalski
+                </a>
+
+                <img
+                    class="avatar-icon"
+                    src="images/icons/devices/video-camera/034-video-camera.png"
+                    alt=""/>
+
+                <span>Video</span>
             </span>
 
             <span>
-                <img src="images/avatars-hosts/katarzyna-grabowska.jpg" alt=""/>
-                Katarzyna Grabowska<br/>
-                <a href="https://twitter.com/kasiarzyna25">@kasiarzyna25</a>
+                <img
+                    src="images/avatars-hosts/katarzyna-grabowska.jpg"
+                    class="avatar"
+                    alt=""/>
+
+                <a href="https://twitter.com/kasiarzyna25">
+                    Katarzyna Grabowska
+                </a>
+
+                <img
+                    class="avatar-icon"
+                    src="images/icons/devices/camera/007-camera.png"
+                    alt=""/>
+
+                <span>Photo</span>
             </span>
 
             <span>
-                <img src="images/avatars-hosts/piotr-zientara.jpg" alt=""/>
-                Piotr Zientara<br/>
-                <a href="https://twitter.com/piotr_zientara">@piotr_zientara</a>
+                <img
+                    src="images/avatars-hosts/piotr-zientara.jpg"
+                    class="avatar"
+                    alt=""/>
+
+                <a href="https://twitter.com/piotr_zientara">
+                    Piotr Zientara
+                </a>
+
+                <img
+                    class="avatar-icon"
+                    src="images/icons/devices/microphone/microphone.png"
+                    alt=""/>
+
+                <span>Audio</span>
             </span>
         </p>
     </section>
@@ -138,36 +174,8 @@
         </h3>
     </section-->
 
-    <section class="slide no-logo no-display-twitter-handle">
-        <div style="
-            float: left;
-            margin: 100px 0 0 0;
-        ">
-            <h2 style="
-                margin: 10px 0 0 0;
-            ">
-                Live streaming
-            </h2>
-
-            <h3 style="font-size: 40px">
-                <a href="http://warsawjs.com/live">
-                    warsawjs.com/live
-                </a>
-            </h3>
-        </div>
-
-        <img
-                style="
-                    float: right;
-                    width: 300px;
-                    margin: 100px auto;
-                "
-                src="images/partners/logo-strefazero-black.png"
-                alt=""/>
-    </section>
-
     <section class="slide">
-        <img class="cover" src="images/sponsors/sponsors-v9-1920x1080.jpg"
+        <img class="cover" src="images/sponsors/sponsors-v10-1920x1080.jpg"
              alt=""/>
     </section>
 
@@ -229,23 +237,39 @@
     </section>
 
     <section class="slide collapse">
-        <h2 style="font-size: 70px; margin: 0">
-            <strong>Newsletter</strong>!
-        </h2>
+        <div style="display: flex; flex-wrap: wrap; margin: 100px 0 0 0;">
+            <div style="width: 50%">
+                <h2 style="font-size: 70px; margin: 0;">
+                    <strong>Newsletter</strong>!
+                </h2>
 
-        <a href="https://newsletter.warsawjs.com">newsletter.warsawjs.com</a>
+                <a href="https://newsletter.warsawjs.com">newsletter.warsawjs.com</a>
+            </div>
 
-        <h2 style="font-size: 70px; margin: 20px 0 0 0">
-            <strong>Blog</strong>!
-        </h2>
+            <div style="width: 50%">
+                <h2 style="font-size: 70px; margin: 0;">
+                    <strong>Blog</strong>!
+                </h2>
 
-        <a href="https://blog.warsawjs.com">blog.warsawjs.com</a>
+                <a href="https://blog.warsawjs.com">blog.warsawjs.com</a>
+            </div>
 
-        <h2 style="font-size: 70px; margin: 20px 0 0 0">
-            <strong>Slack</strong>!
-        </h2>
+            <div style="width: 50%">
+                <h2 style="font-size: 70px; margin: 0;">
+                    <strong>Live streaming</strong>
+                </h2>
 
-        <a href="https://warsawjs.slack.com">warsawjs.slack.com</a>
+                <a href="http://warsawjs.com/live">warsawjs.com/live</a>
+            </div>
+
+            <div style="width: 50%">
+                <h2 style="font-size: 70px; margin: 0;">
+                    <strong>Slack</strong>!
+                </h2>
+
+                <a href="https://warsawjs.slack.com">warsawjs.slack.com</a>
+            </div>
+        </div>
     </section>
 
     <!--section class="slide">
@@ -267,23 +291,35 @@
 
         <p>
             <span>
-                <img src="images/avatars-speakers/illarion-khapyorskiy.jpg" alt=""/>
-                Illarion Khapyorskiy<br/>
+                <img
+                    class="avatar"
+                    src="images/avatars-speakers/illarion-khapyorskiy.jpg"
+                    alt=""/>
+                Illarion Khapyorskiy
             </span>
 
             <span>
-                <img src="images/avatars-speakers/magdalena-hajkiewicz.jpg" alt=""/>
-                Magdalena Hajkiewicz<br/>
+                <img
+                    class="avatar"
+                    src="images/avatars-speakers/magdalena-hajkiewicz.jpg"
+                    alt=""/>
+                Magdalena Hajkiewicz
             </span>
 
             <span>
-                <img src="images/avatars-speakers/michal-budzynski.jpg" alt=""/>
-                Michał Budzyński<br/>
+                <img
+                    class="avatar"
+                    src="images/avatars-speakers/michal-budzynski.jpg"
+                    alt=""/>
+                Michał Budzyński
             </span>
 
             <span>
-                <img src="images/avatars-speakers/yauheni-nikanovich.jpg" alt=""/>
-                Yauheni Nikanovich<br/>
+                <img
+                    class="avatar"
+                    src="images/avatars-speakers/yauheni-nikanovich.jpg"
+                    alt=""/>
+                Yauheni Nikanovich
             </span>
         </p>
 

@@ -92,27 +92,19 @@ body {
     flex-wrap: wrap;
 }
 
-.slide.slide-card-list img {
+.slide.slide-card-list .avatar {
     width: 190px;
     margin: 10px 30px;
     display: block;
     border-radius: 100%;
 }
 
-/* -------------------------------------------------------------------------- */
-
-.slide.twitter-timeline {
-    padding: 50px 360px 0;
-    margin: 0 auto;
-    text-align: center;
+.slide.slide-card-list a {
+    display: block;
 }
 
-.slide.twitter-timeline h2 {
-    font-size: 60px;
-    position: absolute;
-    left: -180px;
-    top: 70px;
-    transform: rotate(-18deg);
-    background: #f0db4f;
-    padding: 0 200px;
+.slide.slide-card-list .avatar-icon {
+    width: 80px;
+    display: block;
+    margin: 30px auto 0;
 }
