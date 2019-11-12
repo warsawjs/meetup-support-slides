@@ -3,9 +3,34 @@
         position: relative;
         margin: 0;
     }
+    .apla {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .link-to-live {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .play-button {
+        width: 100px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
 </style>
 
-<iframe
+<!-- <iframe
     src="./camera.html"
     style="
         position: absolute;
@@ -14,29 +39,14 @@
         left: 0;
         top: 0;
     "
-></iframe>
+></iframe> -->
 
-<div
-    style="
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        background-color: rgba(0, 0, 0, 0.4);
-    "
-></div>
+<div class="apla"></div>
+
+<a href="https://www.youtube.com/c/warsawjs/live" target="_blank" class="link-to-live"></div>
 
 <img
+    class="play-button"
     src="images/icons/youtube.png"
-    style="
-        width: 100px;
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-    "
     alt=""
->
+/>
