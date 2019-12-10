@@ -85,11 +85,12 @@ body {
     padding-right: 0;
 }
 
-.slide.slide-card-list p {
+.slide.slide-card-list .items {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 50px;
 }
 
 .slide.slide-card-list .avatar {
@@ -100,7 +101,12 @@ body {
 }
 
 .slide.slide-card-list a {
-    display: block;
+    display: inline-block;
+    background: none;
+}
+
+.slide.slide-card-list a:hover {
+    border-bottom: 2px solid;
 }
 
 .slide.slide-card-list .avatar-icon {
