@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 .icon {
     width: 36px;
     height: 36px;
@@ -5,7 +7,7 @@
     vertical-align: middle;
 }
 
-.icon-twitter{
+.icon-twitter {
     background-image: url('../images/icons/social/twitter.png');
     background-size: contain;
 }

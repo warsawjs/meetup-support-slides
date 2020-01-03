@@ -10,15 +10,15 @@
     <link href="images/icons/warsawjs-logo-transparent-32x32.png"
           rel="icon" type="image/png" sizes="32x32"/>
 
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,900&amp;subset=latin-ext"
-          rel="stylesheet"/>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,900&amp;subset=latin-ext"
+          rel="stylesheet"/> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap" rel="stylesheet">
 
     <!-- Shower Theme -->
     <link rel="stylesheet" href="vendors/shower-ribbon/styles/screen-16x9.css"/>
     <link rel="stylesheet" href="vendors/shower-warsawjs/styles/main.css"/>
 
-    <link rel="stylesheet" href="styles/display-twitter-handle.css"/>
-    <link rel="stylesheet" href="styles/task-list.css"/>
     <link rel="stylesheet" href="styles/icons.css"/>
 </head>
 <body class="shower list">
@@ -27,7 +27,7 @@
         <p>We talk about JavaScript. Each month in Warsaw, Poland.</p>
     </header>
 
-    <section class="slide no-logo">
+    <section class="slide">
         <iframe
             class="cover"
             src="https://www.youtube-nocookie.com/embed/-SZxbySe0Co?rel=0"
@@ -37,14 +37,18 @@
     </section>
 
     <section class="slide">
-        <h2 style="font-size: 60px;">
-            <strong>Live streaming</strong>
-        </h2>
+        <div style="
+            position: absolute;
+            left: 50px;
+            top: 150px;
+        ">
+            <h2 style="font-size: 60px;">Live streaming</h2>
 
-        <a
-            href="http://warsawjs.com/live"
-            style="font-size: 40px;"
-        >warsawjs.com/live</a>
+            <a
+                href="http://warsawjs.com/live"
+                style="font-size: 40px;"
+            >warsawjs.com/live</a>
+        </div>
 
         <iframe
             src="./youtube.html"
@@ -53,12 +57,12 @@
                 height: 278px;
                 position: absolute;
                 right: 50px;
-                top: 200px;
+                top: 150px;
             "
         ></iframe>
     </section>
 
-    <section class="slide no-logo no-display-twitter-handle">
+    <section class="slide">
         <img class="cover" src="images/logo/logo-white-1920x1200.jpg"
              alt=""/>
 
@@ -70,13 +74,13 @@
         //-->
     </section>
 
-    <section class="slide collapse center slide-card-list no-display-twitter-handle no-logo">
+    <section class="slide center slide-card-list" style="padding-top: 40px;">
         <h2 style="font-size: 60px; margin-bottom: 20px;">
             WarsawJS <em>Hosts</em>
         </h2>
 
-        <div class="items">
-            <span>
+        <ul class="list-unstyled items">
+            <li>
                 <img
                     src="images/avatars-hosts/piotr-kowalski.jpg"
                     class="avatar"
@@ -97,9 +101,9 @@
                         <span>piecioshka</span>
                     </a>
                 </p>
-            </span>
+            </li>
 
-            <span>
+            <li>
                 <img
                     src="images/avatars-hosts/katarzyna-grabowska.jpg"
                     class="avatar"
@@ -120,9 +124,9 @@
                         <span>kasiarzyna25</span>
                     </a>
                 </p>
-            </span>
+            </li>
 
-            <span>
+            <li>
                 <img
                     src="images/avatars-hosts/piotr-zientara.jpg"
                     class="avatar"
@@ -143,12 +147,12 @@
                         <span>piotr_zientara</span>
                     </a>
                 </p>
-            </span>
-        </div>
+            </li>
+        </ul>
     </section>
 
-    <section class="slide black">
-        <h2 style="font-size: 60px;">Why WarsawJS?</h2>
+    <section class="slide">
+        <h2 style="font-size: 60px;"><em>Why</em> WarsawJS?</h2>
         <ul>
             <li class="next">Community built on trust</li>
             <li class="next">Knowledge sharing</li>
@@ -158,8 +162,8 @@
         </ul>
     </section>
 
-    <section class="slide black">
-        <h2 style="font-size: 60px;">Who is WarsawJS?</h2>
+    <section class="slide">
+        <h2 style="font-size: 60px;"><em>Who is</em> WarsawJS?</h2>
         <ul>
             <li>Members</li>
             <li>Speakers & Trainers</li>
@@ -172,7 +176,7 @@
 
     <section class="slide center">
         <h2 style="
-            font-size: 140px;
+            font-size: 100px;
             margin-top: 30px;
         ">
             <a href="https://berlincodeofconduct.org/">
@@ -198,15 +202,15 @@
         </h3>
     </section>
 
-    <section class="slide no-logo">
-        <h1 class="shout">5,249 👍</h1>
+    <section class="slide">
+        <h1 class="shout">5,260 👍</h1>
 
         <h3 class="shout" style="font-size: 50px; margin-top: 120px;">
             <a href="http://meetup.com/warsawjs">meetup.com/warsawjs</a>
         </h3>
     </section>
 
-    <!-- <section-- class="slide no-logo">
+    <!-- <section-- class="slide">
         <h1 class="shout" style="font-size: 120px">
             🌟 <a href="https://warsawjs.com">warsawjs.com</a>  🌟
         </h1>
@@ -217,7 +221,7 @@
     </section-->
 
     <section class="slide">
-        <img class="cover" src="images/sponsors/en-sponsors-v15-1920x1080.png"
+        <img class="cover" src="images/sponsors/en-sponsors-v16.png"
              alt=""/>
     </section>
 
@@ -229,7 +233,7 @@
     </section>
 
     <!--
-    <section class="slide no-logo center">
+    <section class="slide center">
         <h2 style="font-size: 90px; color: #000">
             Codemotion Berlin 2018
         </h2>
@@ -262,25 +266,40 @@
             alt=""/>
     </section-->
 
-    <!--section class="slide no-display-twitter-handle">
+    <section class="slide" style="padding: 150px 50px 0 50px">
         <h2 style="font-size: 60px; position: absolute; left: 50px; top: 20px;">
-            WarsawJS Workshops
+            Workshops <em>Plan</em>
         </h2>
 
-        <ul class="task-list" style="font-size: 33px;">
+        <ul class="list-unstyled" style="font-size: 26px;">
             <li>
-                <code>2019-11-24</code> &bull; <strong>#38</strong> &bull; <mark>RxJS</mark>
+                <strong><del>#40</del></strong> <code>01/26</code> — <mark>Seria: Trening Architekta</mark> — Bezpieczeństwo aplikacji webowych
             </li>
             <li>
-                <code>2019-12-08</code> &bull; <strong>#39</strong> &bull; <mark>Wzorce projektowe</mark>
+                <strong><del>#41</del></strong> <code>02/23</code> — <strong>JavaScript dla początkujących (1/3)</strong>
+            </li>
+            <li>
+                <strong><del>#42</del></strong> <code>03/22</code> — <mark>Seria: Trening Architekta</mark> — Wydajność aplikacji webowych
+            </li>
+            <li>
+                <strong><del>#43</del></strong> <code>04/19</code> — <strong>JavaScript dla średnio zaawansowanych (2/3)</strong>
+            </li>
+            <li>
+                <strong><del>#44</del></strong> <code>05/14</code> — <mark>Seria: Trening Architekta</mark> — Wzorce projektowe
+            </li>
+            <li>
+                <strong><del>#45</del></strong> <code>06/21</code> — <strong>JavaScript dla średnio zaawansowanych (3/3)</strong>
+            </li>
+            <li>
+                <strong><del>#46</del></strong> <code>07/19</code> — <mark>Seria: Trening Architekta</mark> — Programowanie funkcyjne
             </li>
         </ul>
 
-        <h3 style="font-size: 30px; margin-top: 150px;">
+        <!-- <h3 style="font-size: 30px; margin-top: 150px;">
             We are working on a list of workshops on an upcoming year!<br/>
             <strong>Stay tuned!</strong>
-        </h3>
-    </section-->
+        </h3> -->
+    </section>
 
     <section class="slide center">
         <div>
@@ -294,7 +313,7 @@
         </div>
     </section>
 
-    <!--section class="slide no-display-twitter-handle">
+    <!--section class="slide">
         <img
             class="cover"
             src="images/masterclass/Baner_Temat.png"
@@ -302,7 +321,7 @@
         />
     </section-->
 
-    <!--section class="slide no-display-twitter-handle">
+    <!--section class="slide">
         <img
             class="cover"
             src="images/confrontjs/Facebook_1920x1080px.jpg"
@@ -310,7 +329,7 @@
         />
     </section-->
 
-    <!-- <section class="slide collapse">
+    <!-- <section class="slide" style="padding-top: 40px;">
         <div style="display: flex; flex-wrap: wrap; margin: 100px 0 0 0;">
             <div style="width: 40%">
                 <h2 style="font-size: 70px; margin: 0;">
@@ -357,51 +376,67 @@
         </h2>
     </section-->
 
-    <section class="slide collapse center slide-card-list">
-        <h2 style="font-size: 60px;">
-            Agenda @
-            <small>WarsawJS Meetup #64</small>
+    <section class="slide center slide-card-list slide-card-list-circle" style="padding-top: 40px;">
+        <h2 style="font-size: 60px; margin-bottom: 20px;">
+            Meetup #65 <em>Speakers</em>
         </h2>
 
-        <div class="items">
-            <span>
+        <ul class="list-unstyled items">
+            <li>
                 <img
                     class="avatar"
-                    src="images/avatars-speakers/maciej-golaszewski.jpg"
+                    src="images/avatars-speakers/bartek-legiec.jpg"
                     alt=""/>
-                Maciej Gołaszewski
-            </span>
+                Bartek Legięć
 
-            <span>
-                <img
-                    class="avatar"
-                    src="images/avatars-speakers/piotr-szlachciak.jpg"
-                    alt=""/>
-                Piotr Szlachciak
-            </span>
+                <p>
+                    <a href="https://twitter.com/bibix1999">
+                        <i class="icon icon-twitter"></i>
+                        <span>bibix1999</span>
+                    </a>
+                </p>
+            </li>
 
-            <span>
+            <li>
                 <img
                     class="avatar"
-                    src="images/avatars-speakers/cezary-walenciuk.jpg"
+                    src="images/avatars-speakers/kamil-grabek.jpg"
                     alt=""/>
-                Cezary Walenciuk
-            </span>
+                Kamil Grabek
+
+                <!-- <p>
+                    <a href="https://twitter.com/xxx">
+                        <i class="icon icon-twitter"></i>
+                        <span>xxx</span>
+                    </a>
+                </p> -->
+            </li>
+
+            <li>
+                <img
+                    class="avatar"
+                    src="images/avatars-speakers/rafal-pocztarski.jpg"
+                    alt=""/>
+                Rafał Pocztarski
+
+                <p>
+                    <a href="https://twitter.com/pocztarski">
+                        <i class="icon icon-twitter"></i>
+                        <span>pocztarski</span>
+                    </a>
+                </p>
+            </li>
 
         </div>
-
-        <h2>
-            <em>11th of December, 2019</em>
-        </h2>
     </section>
 
-    <section class="slide collapse center no-logo">
-        <h2 class="shout grow">
+    <section class="slide center" style="padding-top: 40px;">
+        <h2 class="shout grow" style="font-size: 120px;">
             🔥 Let's begin! 🔥
         </h2>
     </section>
 
-    <!------------------------------------------------------------------------->
+    <!-- End of slides -->
 
     <div class="progress"></div>
 
