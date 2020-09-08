@@ -11,3 +11,8 @@
     background-image: url('../images/icons/social/twitter.png');
     background-size: contain;
 }
+
+.icon-github {
+    background-image: url('../images/icons/social/github.png');
+    background-size: contain;
+}
